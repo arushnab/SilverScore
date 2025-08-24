@@ -1,0 +1,27 @@
+.movie-container{ 
+    min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+    justify-content: center; 
+   align-items: center; 
+   gap:50px;
+   background-color: #35305c; 
+}
+ 
+body{
+ background-color: #35305c; 
+ color:papayawhip;
+}
+ 
+.watchlist-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: papayawhip;
+    text-decoration: none;
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;       
+    margin: -10px auto 20px;  
+  }
+  

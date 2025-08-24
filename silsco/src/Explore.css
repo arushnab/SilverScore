@@ -1,0 +1,42 @@
+.movie-container{
+   
+        min-height: 100vh;
+       display: flex;
+       flex-direction: column;
+        justify-content: center; 
+       align-items: center; 
+       gap:50px;
+       background-color: #35305c; 
+}
+    
+body{
+    background-color: #35305c; 
+    color:papayawhip;
+}
+
+.topExplore{
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+}
+    
+    
+.discover-title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+     color:papayawhip; 
+    text-decoration: none;
+    max-width: 4000px;
+    text-align: center;
+    margin-top: 10px;
+    justify-content: center;
+    
+}
+
+.search-wrapper {
+    display: flex;
+    justify-content: center; 
+    width: 100%;              
+    margin-top: 20px;         
+}

@@ -1,0 +1,8 @@
+{
+  "userId": {"S": "globalWatchlist"},
+  "watchlist": {"L": [
+    {"M": {"imdbID": {"S": "tt0133093"}}},
+    {"M": {"imdbID": {"S": "tt0816692"}}},
+    {"M": {"imdbID": {"S": "tt0109830"}}}
+  ]}
+}

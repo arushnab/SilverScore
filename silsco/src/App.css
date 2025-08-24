@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+.Home {
+    min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+    justify-content: center; 
+   align-items: center;
+   gap:50px;
+
+
+   background-color: #35305c; 
+
+
+
+
+}
+
+
+
+b {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      font-size: 30px;
+       color:#c299b4; 
+      text-decoration: none;
+      max-width: 1200px;
+      text-align: center;
+      margin-top:-100px;
+}
+
+.page-containers {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 80px;
+   margin-top: 60px;
+}
+
+ .square {
+   position: relative;
+   width: 320px;
+   height: 330px;
+   border: 3px solid papayawhip; 
+   border-radius: 15px;
+   background-color: #77a0b0f0;
+   cursor: pointer;
+   overflow: hidden;
+}  
+.overlay {
+   position: absolute; 
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(0, 0, 0, 0.4); 
+   border-radius: 15px;
+   z-index: 2; 
+   opacity: 1; 
+ }
+
+.box-image {
+   width: 100%;
+   height: 100%;
+   border-radius: 15px;
+   transition: opacity 0.3s ease;
+   opacity: 0.8; 
+}
+
+
+.square-text {
+   font-family: "Montserrat", sans-serif;
+   font-weight: 600;
+   font-size: 30px;
+   text-align: center;
+   color: papayawhip;
+   display: flex;
+   z-index:3;
+}
+
+
+.square:hover .box-image{
+   opacity:0.5;
+}
+
