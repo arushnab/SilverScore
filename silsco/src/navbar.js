@@ -22,7 +22,7 @@ const Navbar = ({searchResult, setSearchResult}) => {
           <li className="nav-item"><Link to="/Reviews">Review</Link></li>
           <li className="nav-item"><Link to="/Watchlist">Watchlist</Link></li>
           <li className="nav-item"><Link to="/Explore">Explore</Link></li>
-    <li className="nav-item"> <Link to="/Profile"><button>Profile</button></Link> </li>
+    {/* <li className="nav-item"> <Link to="/Profile"><button>Profile</button></Link> </li> */}
             
         </ul>
       

@@ -48,7 +48,7 @@ function App(){
 
                 <Link to ="/Watchlist" className="square">
                 <div id="watchlist" className="square">
-                  <img src="/corner_of_laptop_with_mouse.jpeg" alt="Watchlist Photo" className="box-image" />
+                  <img src="/popcorn1.png" alt="Watchlist Photo" className="box-image" />
                   <div className="overlay">
                     <span class="square-text">Watchlist</span>
                   </div>
