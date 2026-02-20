@@ -1,5 +1,4 @@
 name: SilverScore CI/CD
-#dummy commit
 on:
   push:
     branches: ["main"]
@@ -36,7 +35,7 @@ jobs:
           ECR_URI="${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPO}"
           TAG="${GITHUB_SHA}"
 
-        #   docker build -t "${ECR_URI}:${TAG}" silsco/silscoInfa/lib/lambda/recommendations
+          docker build -t "${ECR_URI}:${TAG}" silsco/silscoInfa/lib/lambda/recommendations
           docker push "${ECR_URI}:${TAG}"
 
           echo "Pushed image: ${ECR_URI}:${TAG}"
