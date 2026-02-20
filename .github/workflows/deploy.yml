@@ -36,7 +36,7 @@ jobs:
                 ECR_URI="${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPO}"
                 TAG="${GITHUB_SHA}"
 
-                docker build -t "${ECR_URI}:${TAG}" silscoInfa/lib/lambda/reccomendations
+                docker build -t "${ECR_URI}:${TAG}" silsco/silscoInfa/lib/lambda/recommendations
                 docker push "${ECR_URI}:${TAG}"
 
                 echo "Pushed image: ${ECR_URI}:${TAG}"
